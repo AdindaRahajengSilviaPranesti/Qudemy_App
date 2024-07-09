@@ -53,9 +53,6 @@ const routes: Routes = [
       path: 'charts', loadChildren: () => import('./charts/charts.module').then(m => m.ChartsModule)
     },
     {
-      path: 'icons', loadChildren: () => import('./icons/icons.module').then(m => m.IconsModule)
-    },
-    {
       path: 'maps', loadChildren: () => import('./maps/maps.module').then(m => m.MapsModule)
     },
     {

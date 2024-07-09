@@ -1279,53 +1279,7 @@ export const MENU: MenuItem[] = [
       }
     ]
   },
-  {
-    id: 169,
-    label: 'MENUITEMS.ICONS.TEXT',
-    icon: 'ri-compasses-2-line',
-    subItems: [
-      {
-        id: 170,
-        label: 'MENUITEMS.ICONS.LIST.REMIX',
-        link: '/icons/remix',
-        parentId: 169
-      },
-      {
-        id: 171,
-        label: 'MENUITEMS.ICONS.LIST.BOXICONS',
-        link: '/icons/boxicons',
-        parentId: 169
-      },
-      {
-        id: 172,
-        label: 'MENUITEMS.ICONS.LIST.MATERIALDESIGN',
-        link: '/icons/materialdesign',
-        parentId: 169
-      },
-      {
-        id: 173,
-        label: 'MENUITEMS.ICONS.LIST.LINEAWESOME',
-        link: '/icons/lineawesome',
-        parentId: 169
-      },
-      {
-        id: 174,
-        label: 'MENUITEMS.ICONS.LIST.FEATHER',
-        link: '/icons/feather',
-        parentId: 169
-      },
-      {
-        id: 174,
-        label: 'MENUITEMS.ICONS.LIST.CRYPTOSVG',
-        link: '/icons/icons-crypto',
-        parentId: 169,
-        badge: {
-          variant: 'bg-danger',
-          text: 'MENUITEMS.DASHBOARD.BADGE',
-        },
-      },
-    ]
-  },
+
   {
     id: 175,
     label: 'MENUITEMS.MAPS.TEXT',
