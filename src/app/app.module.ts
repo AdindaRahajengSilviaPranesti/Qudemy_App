@@ -49,7 +49,6 @@ if (environment.defaultauth === 'firebase') {
     BrowserModule,
     AppRoutingModule,
     LayoutsModule,
-    PagesModule,
     NgbModule
   ],
   providers: [

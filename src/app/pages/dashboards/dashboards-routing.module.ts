@@ -3,24 +3,17 @@ import { Routes, RouterModule } from '@angular/router';
 
 // Component Pages
 import { AnalyticsComponent } from "./analytics/analytics.component";
-import { CrmComponent } from "./crm/crm.component";
-import { CryptoComponent } from "./crypto/crypto.component";
 import { ProjectsComponent } from "./projects/projects.component";
 import { NftComponent } from "./nft/nft.component";
 import { JobComponent } from './job/job.component';
+import { TraineeComponent } from './trainee/trainee.component';
+import { TrainerComponent } from './trainer/trainer.component';
+import { TransportContainerComponent } from '@fullcalendar/angular/utils/transport-container.component';
 
 const routes: Routes = [
   {
     path: "analytics",
     component: AnalyticsComponent
-  },
-  {
-    path: "crm",
-    component: CrmComponent
-  },
-  {
-    path: "crypto",
-    component: CryptoComponent
   },
   {
     path: "projects",
@@ -33,6 +26,14 @@ const routes: Routes = [
   {
     path: "job",
     component: JobComponent
+  },
+  {
+    path: "trainee",
+    component: TraineeComponent
+  },
+  {
+    path: "trainer",
+    component: TrainerComponent
   }
 ];
 

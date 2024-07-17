@@ -8,6 +8,7 @@ import { SwiperOptions } from 'swiper';
 import { BestSelling, TopSelling, RecentSelling, statData } from './data';
 import { ChartType } from './dashboard.model';
 
+
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',

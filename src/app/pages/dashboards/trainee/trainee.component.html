@@ -1,0 +1,63 @@
+<div class="row justify-content-center">
+  <div class="col-10 d-flex justify-content-center">
+    <img src="assets/img/bird2.gif" alt="monitoring" style="border-radius: 25px; max-width: 63%; height: auto;">
+  </div>
+</div> &nbsp;
+
+<div class="row justify-content-center">
+  <div class="col-6">
+    <h4 class="judulattendance">ATTENDANCE</h4>
+  </div>
+</div>
+
+<div class="row justify-content-center">
+  <div class="col-6">
+    <div class="card">
+      <div class="card-header">
+        <h4 class="card-title mb-0">Total Person</h4>
+      </div><!-- end card header -->
+      <div class="card-body">
+        <apx-chart [series]="distributedColumnChart.series" [chart]="distributedColumnChart.chart"
+          [dataLabels]="distributedColumnChart.dataLabels" [plotOptions]="distributedColumnChart.plotOptions"
+          [yaxis]="distributedColumnChart.yaxis" [xaxis]="distributedColumnChart.xaxis"
+          [legend]="distributedColumnChart.legend" [colors]="distributedColumnChart.colors"
+          [grid]="distributedColumnChart.grid" dir="ltr"></apx-chart>
+      </div><!-- end card-body -->
+    </div><!-- end card -->
+
+  </div>
+  <div class="col-6">
+    <div class="card">
+      <div class="card-header">
+          <h4 class="card-title mb-0">% Attendance</h4>
+      </div><!-- end card header -->
+
+      <div class="card-body"  id="line_chart_basic" data-colors='["--vz-primary"]'>
+        <apx-chart [series]="basicLineChart.series" [chart]="basicLineChart.chart"
+        [markers]="basicLineChart.markers" [dataLabels]="basicLineChart.dataLabels"
+        [stroke]="basicLineChart.stroke" [colors]="basicLineChart.colors" [title]="basicLineChart.title"
+        [xaxis]="basicLineChart.xaxis" dir="ltr"></apx-chart>
+      </div><!-- end card-body -->
+  </div><!-- end card -->
+  </div>
+
+</div>
+
+
+<div class="row justify-content-center">
+  <div class="col-6">
+    <h4 class="judulattendance">PRETEST</h4>
+  </div>
+  <div class="col-6">
+    <h4 class="judulattendance">POSTEST</h4>
+  </div>
+</div>
+
+<div class="row justify-content-center">
+  <div class="col-6">
+    <h4 class="judulattendance">LEARNING INDEX</h4>
+  </div>
+  <div class="col-6">
+    <h4 class="judulattendance">BEST SCORE</h4>
+  </div>
+</div>

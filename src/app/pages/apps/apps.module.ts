@@ -45,17 +45,10 @@ import { MatTableModule } from '@angular/material/table';
 // Component Pages
 import { AppsRoutingModule } from "./apps-routing.module";
 import { SharedModule } from '../../shared/shared.module';
-import { CalendarComponent } from './calendar/calendar.component';
-import { ChatComponent } from './chat/chat.component';
-import { MailboxComponent } from './mailbox/mailbox.component';
-import { WidgetsComponent } from './widgets/widgets.component';
-import { EmailBasicComponent } from './email/email-basic/email-basic.component';
-import { EmailEcommerceComponent } from './email/email-ecommerce/email-ecommerce.component';
-import { FileManagerComponent } from './file-manager/file-manager.component';
-import { TodoComponent } from './todo/todo.component';
+
+
 
 // Sorting page
-import { NgbdApikeySortableHeader } from './apikey/apikey-sortable.directive';
 
 // Mask
 import { NgxMaskDirective, NgxMaskPipe, provideNgxMask, IConfig } from 'ngx-mask';
@@ -63,24 +56,13 @@ import { NgxMaskDirective, NgxMaskPipe, provideNgxMask, IConfig } from 'ngx-mask
 import { DatePipe } from '@angular/common';
 
 import { SortByPipe } from '../apps/sort-by.pipe';
-import { ApikeyComponent } from './apikey/apikey.component';
 
 // Swiper Slider
 import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
 
 @NgModule({
   declarations: [
-    CalendarComponent,
-    ChatComponent,
-    MailboxComponent,
-    WidgetsComponent,
-    EmailBasicComponent,
-    EmailEcommerceComponent,
-    FileManagerComponent,
-    TodoComponent,
     SortByPipe,
-    ApikeyComponent,
-    NgbdApikeySortableHeader
   ],
   imports: [
     CommonModule,
